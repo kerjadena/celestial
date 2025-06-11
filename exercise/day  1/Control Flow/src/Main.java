@@ -9,6 +9,7 @@ public class Main {
             System.out.println("Bilangan bilangan negatif");
         }else { System.out.println("Ini adalah angka 0");
         }
+
         int hari = 9;
         switch (hari) {
             case 1 :
@@ -34,6 +35,21 @@ public class Main {
                 break;
             default:
                 System.out.println("Masukkan angka 1-7");
+
+                // while loop
+
+                int i = 0;
+                while (i < 5) {
+                    System.out.println("Perulangan ke-" + i);
+                    i++;
+                }
+
+                // do while loop
+                int j = 0;
+                do {
+                    System.out.println("Perulangan ke-" + j);
+                    j++;
+                } while (j < 5);
         }
     }
 }
