@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> upstream/master
 ## 🧪 **Pre-Test: Spring Data JPA & Spring Web Development**
 
 ---
@@ -116,7 +119,11 @@ public class User {
 @RestController
 public class HelloController {
     @GetMapping("/hello")
+<<<<<<< HEAD
     public String hello(@RequestParam String name) {
+=======
+    public String hello(String name) {
+>>>>>>> upstream/master
         return "Hello " + name;
     }
 }
@@ -144,4 +151,7 @@ public String getUser(@PathVariable Long id) {
 25. Jika Anda ingin menghandle error saat user tidak ditemukan dalam REST API, bagaimana pendekatan yang baik di Spring?
 
 ---
+<<<<<<< HEAD
 
+=======
+>>>>>>> upstream/master
